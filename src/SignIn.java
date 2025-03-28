@@ -89,6 +89,7 @@ public class SignIn extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 255));
         jPanel2.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel2.setToolTipText("");
 
         txtLogUsername.setBackground(new java.awt.Color(255, 255, 255));
         txtLogUsername.setForeground(new java.awt.Color(0, 0, 0));
@@ -138,6 +139,11 @@ public class SignIn extends javax.swing.JFrame {
         jComboBox1.setBackground(new java.awt.Color(255, 255, 255));
         jComboBox1.setForeground(new java.awt.Color(0, 0, 0));
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Admin", "Costumer" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
 
         signup.setBackground(new java.awt.Color(255, 255, 255));
         signup.setForeground(new java.awt.Color(0, 0, 0));
@@ -273,6 +279,10 @@ public class SignIn extends javax.swing.JFrame {
         if (rs.next()) {
             String name = rs.getString("accName");
             JOptionPane.showMessageDialog(null, "Welcome," + name + "!");
+            Homepage home = new Homepage(); // Replace with your homepage method
+            home.setVisible(true);
+             dispose();  // Close the current form
+            
         } else {
             JOptionPane.showMessageDialog(null, "Invalid Credentials");
         }
@@ -297,6 +307,10 @@ public class SignIn extends javax.swing.JFrame {
     private void txtLogPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLogPasswordActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtLogPasswordActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     /**
      * @param args the command line arguments
