@@ -136,20 +136,14 @@
         <Component class="javax.swing.JComboBox" name="jComboBox2">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="13">
+              <StringArray count="7">
                 <StringItem index="0" value="January"/>
                 <StringItem index="1" value="Febuary"/>
                 <StringItem index="2" value="March"/>
                 <StringItem index="3" value="April"/>
-                <StringItem index="4" value="May"/>
-                <StringItem index="5" value="June"/>
-                <StringItem index="6" value="July"/>
-                <StringItem index="7" value="August"/>
-                <StringItem index="8" value="September"/>
-                <StringItem index="9" value="October"/>
-                <StringItem index="10" value="November"/>
-                <StringItem index="11" value="December"/>
-                <StringItem index="12" value=" "/>
+                <StringItem index="4" value="Item 2"/>
+                <StringItem index="5" value="Item 3"/>
+                <StringItem index="6" value="Item 4"/>
               </StringArray>
             </Property>
           </Properties>
