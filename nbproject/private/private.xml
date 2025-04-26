@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/SignIn.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>302</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/SignUp.java</file>
-            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/SignIn.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/Customer.java</file>
             <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/Homepage.java</file>
-            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/test.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/SignUp.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/DepositDetails.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/CalculateBill.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/SignUpCustomer.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/SignInCustomer.java</file>
+            <file>file:/C:/Users/acer/Documents/NetBeansProjects/ElectroPay/src/SignIn.java</file>
         </group>
     </open-files>
 </project-private>
